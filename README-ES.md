@@ -82,7 +82,7 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     
     **Importante:** estos pines se usan normalmente para un oscilador externo de 16Mhz/8Mhz, por lo que al usar el oscilador de 32Khz, **se debe utilizar el oscilador interno del propio arduino como principal**. Configura los fuses o bootloader de forma que no use cristal externo para el reloj del sistema.
     
-    ![Imagen oscilador](img/oscilator.jpg)
+    <img src="img/oscilator.jpg" alt="Oscilador" width="300">
     
 - **Modo Estándar**
     
