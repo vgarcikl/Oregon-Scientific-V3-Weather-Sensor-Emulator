@@ -40,7 +40,7 @@
 ---
 
 ## Características
-
+---
 - **Dos modos de temporización:**
     - *Optimizado* (`enable_opt`): Timer2 asíncrono con cristal de 32,768 kHz. Sin calibración y con suspensión profunda entre emisiones (consumo en reposo de 3uA).
     - *Estándar*: basado en `micros()` / `delayMicroseconds()`, compatible con cualquier Arduino.
@@ -49,10 +49,8 @@
 - Intervalo de emisión, canal e identificador configurables.
 - Alimentación del emisor RF controlada por software: solo se energiza durante la transmisión.
 
----
-
 ## Hardware
-
+---
 - Microcontrolador:
     - ATmega328PB.
     - ATmega328P.
@@ -73,7 +71,7 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     En la siguiente imagen pueden ver el diagrama y un ejemplo de una modificación real:
     
     ```
-    		          ┌────────┤ ├────────┐      ← Cristal 32,768 kHz
+                      ┌────────┤ ├────────┐      ← Cristal 32,768 kHz
     		          │                   │
         XTAL1 ────────┤                   ├──────── XTAL2
                       │                   │         
