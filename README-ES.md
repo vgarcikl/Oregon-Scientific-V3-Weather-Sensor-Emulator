@@ -69,7 +69,7 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     
     ```
                       ┌────────┤ ├────────┐      ← Cristal 32,768 kHz
-    		          │                   │
+                      │                   │
         XTAL1 ────────┤                   ├──────── XTAL2
                       │                   │         
                 	 ─┴─ C1              ─┴─ C2
