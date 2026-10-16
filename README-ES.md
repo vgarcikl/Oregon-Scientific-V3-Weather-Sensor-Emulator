@@ -1,4 +1,5 @@
 # Emulador de sensores meteorológicos Oregon Scientific V3
+🌐 [English](README.md) | **Español**
 
 **Emulador de sensores meteorológicos compatibles con el protocolo Oregon Scientific V3. Este proyecto surge de la necesidad de sustituir los sensores originales por una solución alternativa, capaz de reproducir su comportamiento y garantizar la compatibilidad con los receptores existentes.**
 
