@@ -37,10 +37,8 @@
 - **Bajo consumo energético: optimizar el funcionamiento del emulador para reducir el consumo y favorecer su autonomía en aplicaciones alimentadas por batería.**
 - **Emulación de alta fidelidad: reproducir con la máxima precisión posible las mismas tramas que los sensores originales.**
 
----
 
 ## Características
----
 - **Dos modos de temporización:**
     - *Optimizado* (`enable_opt`): Timer2 asíncrono con cristal de 32,768 kHz. Sin calibración y con suspensión profunda entre emisiones (consumo en reposo de 3uA).
     - *Estándar*: basado en `micros()` / `delayMicroseconds()`, compatible con cualquier Arduino.
@@ -50,7 +48,6 @@
 - Alimentación del emisor RF controlada por software: solo se energiza durante la transmisión.
 
 ## Hardware
----
 - Microcontrolador:
     - ATmega328PB.
     - ATmega328P.
