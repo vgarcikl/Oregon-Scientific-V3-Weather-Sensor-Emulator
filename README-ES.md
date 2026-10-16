@@ -334,8 +334,6 @@ Además de la implementación, la investigación aporta hallazgos sobre el proto
 
 El proyecto queda abierto a mejoras y sugerencias: decodificar el anemómetro del WMR100a, ampliar la compatibilidad, afinar el código y la documentación, y publicar un receptor Arduino que mida el `V3_PULSE_LENGHT_US` real de un emisor, lo que facilitaría la calibración del modo estándar.
 
-<img src="img/sensor-img.jpg" alt="Sensor emulador" width="300">
-
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](https://app.notion.com/p/LICENSE) para más información.
