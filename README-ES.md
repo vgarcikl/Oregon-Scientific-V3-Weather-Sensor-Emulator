@@ -4,18 +4,18 @@
 
 ## Índice
 
-- Sensores emulados
-- Objetivos
-- Características
-- Hardware
-- Conexiones
-- Recepción de los receptores originales
-- Configuración de emulación
-- Descubrimientos
-- Trabajo a futuro
-- Conclusión
-- Licencia
-- Créditos y agradecimientos
+- [Sensores emulados](#sensores-emulados)
+- [Objetivos](#objetivos)
+- [Características](#características)
+- [Hardware](#hardware)
+- [Conexiones](#conexiones)
+- [Recepción de los receptores originales](#recepción-de-los-receptores-originales)
+- [Configuración de emulación](#configuración-de-emulación)
+- [Descubrimientos](#descubrimientos)
+- [Trabajo a futuro](#trabajo-a-futuro)
+- [Conclusión](#conclusión)
+- [Licencia](#licencia)
+- [Créditos y agradecimientos](#créditos-y-agradecimientos)
 
 ## Sensores emulados
 
