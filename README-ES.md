@@ -333,7 +333,8 @@ Este proyecto demuestra que es posible emular con alta fidelidad los sensores Or
 Además de la implementación, la investigación aporta hallazgos sobre el protocolo: el nibble de batería también codifica el estado de sincronización, y los nibbles de tendencia determinan las flechas de temperatura y humedad en la consola. Estos resultados son experimentales y no se garantiza que valgan para todos los modelos de la marca.
 
 El proyecto queda abierto a mejoras y sugerencias: decodificar el anemómetro del WMR100a, ampliar la compatibilidad, afinar el código y la documentación, y publicar un receptor Arduino que mida el `V3_PULSE_LENGHT_US` real de un emisor, lo que facilitaría la calibración del modo estándar.
-<img src="img/sensor-img.jpg" alt="Sensor emulador" width="500">
+
+<img src="img/sensor-img.jpg" alt="Sensor emulador" width="300">
 
 ## Licencia
 
