@@ -1,4 +1,5 @@
 # **Oregon Scientific V3 Weather Sensor Emulator**
+🌐 **English** | [Español](README-ES.md)
 
 **Emulator of weather sensors compatible with the Oregon Scientific V3 protocol. This project was born from the need to replace the original sensors with an alternative solution capable of reproducing their behavior and ensuring compatibility with existing receivers.**
 
