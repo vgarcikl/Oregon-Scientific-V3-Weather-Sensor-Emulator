@@ -336,7 +336,7 @@ El proyecto queda abierto a mejoras y sugerencias: decodificar el anemómetro de
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](https://app.notion.com/p/LICENSE) para más información.
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
 ## Créditos y agradecimientos
 
