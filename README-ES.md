@@ -82,8 +82,6 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     
     **Importante:** estos pines se usan normalmente para un oscilador externo de 16Mhz/8Mhz, por lo que al usar el oscilador de 32Khz, **se debe utilizar el oscilador interno del propio arduino como principal**. Configura los fuses o bootloader de forma que no use cristal externo para el reloj del sistema.
     
-    <img src="img/oscilator.jpg" alt="Oscilador" width="300">
-    
 - **Modo Estándar**
     
     Este modo no requiere ningún hardware adicional y es compatible con cualquier arduino, pero se deberá realizar una calibración del parámetro `V3_PULSE_LENGHT_US`  para que la duración de los pulsos Manchester coincida con lo que realmente acepta el receptor original. Más información en el apartado de configuración.
@@ -335,7 +333,7 @@ Este proyecto demuestra que es posible emular con alta fidelidad los sensores Or
 Además de la implementación, la investigación aporta hallazgos sobre el protocolo: el nibble de batería también codifica el estado de sincronización, y los nibbles de tendencia determinan las flechas de temperatura y humedad en la consola. Estos resultados son experimentales y no se garantiza que valgan para todos los modelos de la marca.
 
 El proyecto queda abierto a mejoras y sugerencias: decodificar el anemómetro del WMR100a, ampliar la compatibilidad, afinar el código y la documentación, y publicar un receptor Arduino que mida el `V3_PULSE_LENGHT_US` real de un emisor, lo que facilitaría la calibración del modo estándar.
-![Imagen de un sensor montado](img/sensor-img.jpg)
+<img src="img/sensor-img.jpg" alt="Sensor emulador" width="500">
 
 ## Licencia
 
