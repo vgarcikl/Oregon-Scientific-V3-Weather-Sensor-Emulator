@@ -65,7 +65,7 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     - **Oscilador de 32,768 Khz:** este se debe de soldar en los pines “XTAL1 y XTAL2”.
     - **Un par de condensadores:** normalmente de 12pF (se deben de conectar del XTAL1 y XTAL2 a GND).
     
-    En la siguiente imagen pueden ver el diagrama y un ejemplo de una modificación real:
+    En la siguiente imagen pueden ver el diagrama:
     
     ```
                       ┌────────┤ ├────────┐      ← Cristal 32,768 kHz
