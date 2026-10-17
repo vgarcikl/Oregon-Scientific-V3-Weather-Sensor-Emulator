@@ -69,16 +69,7 @@ With this hardware, two configurations are possible:
 
     The diagram below shows the wiring:
 
-    ```
-                      ┌────────┤ ├────────┐      ← 32.768 kHz crystal
-                      │                   │
-        XTAL1 ────────┤                   ├──────── XTAL2
-                      │                   │
-                     ─┴─ C1              ─┴─ C2
-                     ─┬─                 ─┬─
-                      │                   │
-                     GND                 GND
-    ```
+    ![Oscillator diagram](img/diagrama.svg)
 
     **Important:** these pins are normally used for an external 16 MHz/8 MHz oscillator, so when using the 32 kHz crystal, **the Arduino's internal oscillator must be used as the main clock**. Configure the fuses or bootloader so that no external crystal is used for the system clock.
 
