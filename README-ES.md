@@ -68,18 +68,7 @@ Con este hardware, existen dos tipos de configuraciones que se pueden realizar:
     
     En la siguiente imagen pueden ver el diagrama:
     
-    ```
-                      ┌────────┤ ├────────┐      ← Cristal 32,768 kHz
-                      │                   │
-        XTAL1 ────────┤                   ├──────── XTAL2
-                      │                   │         
-                	 ─┴─ C1              ─┴─ C2
-                     ─┬─                 ─┬─
-                      │                   │
-                     GND                 GND
-                 
-    
-    ```
+    ![Diagrama del oscilador](img/diagrama.svg)
     
     **Importante:** estos pines se usan normalmente para un oscilador externo de 16Mhz/8Mhz, por lo que al usar el oscilador de 32Khz, **se debe utilizar el oscilador interno del propio arduino como principal**. Configura los fuses o bootloader de forma que no use cristal externo para el reloj del sistema.
     
